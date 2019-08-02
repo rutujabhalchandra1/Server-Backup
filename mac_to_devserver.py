@@ -63,8 +63,6 @@ def scp_data_to_devserver(ip_address, user_name, password, file_path, timeout=60
     return buffering
 
 
-# scp_data_to_devserver('2620:10d:c089:ff08:82c:e728:8504:972a', 'tasmaster', 'terragraph', '/Users/tasmaster/backup_data/PI-Production_20190305010001.tgz')
-
 if __name__ == "__main__":
 
     with open("server_details.json") as f:
